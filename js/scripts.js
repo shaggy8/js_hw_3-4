@@ -47,12 +47,12 @@ var test = {
     height: 18px;\
     ';
 
-    var txt1 = document.createElement('span');
-    txt1.innerHTML = 'Вариант ответа №1';
-    txt1.style.fontSize = '16px';
+    var label1 = document.createElement('label');
+    label1.innerHTML = 'Вариант ответа №1';
+    label1.style.fontSize = '16px';
 
-    q.appendChild(check1);
-    q.appendChild(txt1);
+    label1.insertBefore(check1, label1.firstChild);
+    q.appendChild(label1);
 
     q.appendChild( document.createElement('br') );
 
@@ -65,12 +65,12 @@ var test = {
     height: 18px;\
     ';
 
-    var txt2 = document.createElement('span');
-    txt2.innerHTML = 'Вариант ответа №2';
-    txt2.style.fontSize = '16px';
+    var label2 = document.createElement('label');
+    label2.innerHTML = 'Вариант ответа №2';
+    label2.style.fontSize = '16px';
 
-    q.appendChild(check2);
-    q.appendChild(txt2);
+    label2.insertBefore(check2, label2.firstChild);
+    q.appendChild(label2);
 
     q.appendChild( document.createElement('br') );
 
@@ -83,12 +83,12 @@ var test = {
     height: 18px;\
     ';
 
-    var txt3 = document.createElement('span');
-    txt3.innerHTML = 'Вариант ответа №3';
-    txt3.style.fontSize = '16px';
+    var label3 = document.createElement('label');
+    label3.innerHTML = 'Вариант ответа №3';
+    label3.style.fontSize = '16px';
 
-    q.appendChild(check3);
-    q.appendChild(txt3);
+    label3.insertBefore(check3, label3.firstChild);
+    q.appendChild(label3);
 
 
     document.querySelector('ol').appendChild(q);
@@ -111,12 +111,12 @@ var test = {
     height: 18px;\
     ';
 
-    var txt1 = document.createElement('span');
-    txt1.innerHTML = 'Вариант ответа №1';
-    txt1.style.fontSize = '16px';
+    var label1 = document.createElement('label');
+    label1.innerHTML = 'Вариант ответа №1';
+    label1.style.fontSize = '16px';
 
-    q.appendChild(check1);
-    q.appendChild(txt1);
+    label1.insertBefore(check1, label1.firstChild);
+    q.appendChild(label1);
 
     q.appendChild( document.createElement('br') );
 
@@ -129,12 +129,12 @@ var test = {
     height: 18px;\
     ';
 
-    var txt2 = document.createElement('span');
-    txt2.innerHTML = 'Вариант ответа №2';
-    txt2.style.fontSize = '16px';
+    var label2 = document.createElement('label');
+    label2.innerHTML = 'Вариант ответа №2';
+    label2.style.fontSize = '16px';
 
-    q.appendChild(check2);
-    q.appendChild(txt2);
+    label2.insertBefore(check2, label2.firstChild);
+    q.appendChild(label2);
 
     q.appendChild( document.createElement('br') );
 
@@ -147,12 +147,12 @@ var test = {
     height: 18px;\
     ';
 
-    var txt3 = document.createElement('span');
-    txt3.innerHTML = 'Вариант ответа №3';
-    txt3.style.fontSize = '16px';
+    var label3 = document.createElement('label');
+    label3.innerHTML = 'Вариант ответа №3';
+    label3.style.fontSize = '16px';
 
-    q.appendChild(check3);
-    q.appendChild(txt3);
+    label3.insertBefore(check3, label3.firstChild);
+    q.appendChild(label3);
 
 
     document.querySelector('ol').appendChild(q);
@@ -175,12 +175,12 @@ var test = {
     height: 18px;\
     ';
 
-    var txt1 = document.createElement('span');
-    txt1.innerHTML = 'Вариант ответа №1';
-    txt1.style.fontSize = '16px';
+    var label1 = document.createElement('label');
+    label1.innerHTML = 'Вариант ответа №1';
+    label1.style.fontSize = '16px';
 
-    q.appendChild(check1);
-    q.appendChild(txt1);
+    label1.insertBefore(check1, label1.firstChild);
+    q.appendChild(label1);
 
     q.appendChild( document.createElement('br') );
 
@@ -193,12 +193,12 @@ var test = {
     height: 18px;\
     ';
 
-    var txt2 = document.createElement('span');
-    txt2.innerHTML = 'Вариант ответа №2';
-    txt2.style.fontSize = '16px';
+    var label2 = document.createElement('label');
+    label2.innerHTML = 'Вариант ответа №2';
+    label2.style.fontSize = '16px';
 
-    q.appendChild(check2);
-    q.appendChild(txt2);
+    label2.insertBefore(check2, label2.firstChild);
+    q.appendChild(label2);
 
     q.appendChild( document.createElement('br') );
 
@@ -211,12 +211,12 @@ var test = {
     height: 18px;\
     ';
 
-    var txt3 = document.createElement('span');
-    txt3.innerHTML = 'Вариант ответа №3';
-    txt3.style.fontSize = '16px';
+    var label3 = document.createElement('label');
+    label3.innerHTML = 'Вариант ответа №3';
+    label3.style.fontSize = '16px';
 
-    q.appendChild(check3);
-    q.appendChild(txt3);
+    label3.insertBefore(check3, label3.firstChild);
+    q.appendChild(label3);
 
 
     document.querySelector('ol').appendChild(q);
